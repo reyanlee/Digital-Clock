@@ -1,0 +1,30 @@
+#bigbox{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+}
+
+#middlebox{
+	width: 500px;
+	height: 190px;
+	background-color: #6d82a8;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	padding-top: 15px;
+}
+
+#smallbox{
+	width: 450px;
+	height: 175px;
+	background-color: #3c619b;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#time{
+	color: white;
+	font-size: 150px;
+	margin-left: 45px;
+}
