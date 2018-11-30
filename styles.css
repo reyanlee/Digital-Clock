@@ -1,11 +1,11 @@
-#bigbox{
+#bigbox {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: white;
 }
 
-#middlebox{
+#middlebox {
 	width: 500px;
 	height: 190px;
 	background-color: #bdd0ef;
@@ -15,7 +15,7 @@
 	padding-top: 15px;
 }
 
-#smallbox{
+#smallbox {
 	width: 450px;
 	height: 175px;
 	background-color: #3c619b;
@@ -23,8 +23,22 @@
 	margin-right: auto;
 }
 
-#time{
-	color: white;
+#time {
+	
 	font-size: 150px;
 	margin-left: 45px;
+	animation-name: change;
+	animation-duration: 20s;
+}
+
+@keyframes change {
+	0% {
+		color: white;
+	}
+	25% {
+		color: #bdd0ef;
+	}
+	75% {
+		color: white;
+	}
 }
